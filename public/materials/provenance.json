@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "grasses-overview",
+    "source": "Фото/Копия High Grass 2022 Natalia Semenova_03.jpg",
+    "width": 3456,
+    "height": 5184,
+    "changes": "Resize only; no crop, retouching or generated imagery."
+  },
+  {
+    "slug": "grasses-full",
+    "source": "Фото/Копия High Grass 2022 Natalia Semenova_01.jpg",
+    "width": 3456,
+    "height": 5184,
+    "changes": "Resize only; no crop, retouching or generated imagery."
+  },
+  {
+    "slug": "weaving",
+    "source": "Фото/Копия High Grass 2022 Natalia Semenova_closeup3.jpg",
+    "width": 3456,
+    "height": 5184,
+    "changes": "Resize only; no crop, retouching or generated imagery."
+  },
+  {
+    "slug": "weaving-wide",
+    "source": "Фото/Копия High Grass 2022 Natalia Semenova_closeup1.jpg",
+    "width": 5184,
+    "height": 3456,
+    "changes": "Resize only; no crop, retouching or generated imagery."
+  },
+  {
+    "slug": "grasses-detail",
+    "source": "Фото/Копия High Grass 2022 Natalia Semenova_closeup2.jpg",
+    "width": 3269,
+    "height": 4904,
+    "changes": "Resize only; no crop, retouching or generated imagery."
+  },
+  {
+    "slug": "library",
+    "source": "photo_5408949193042237068_y.jpg",
+    "width": 1280,
+    "height": 853,
+    "changes": "Resize only; no crop, retouching or generated imagery."
+  },
+  {
+    "slug": "orange",
+    "source": "Фото/Копия memories-in-coral.jpg",
+    "width": 1365,
+    "height": 2048,
+    "changes": "Resize only; no crop, retouching or generated imagery."
+  },
+  {
+    "slug": "installation",
+    "source": "IMG_4240.HEIC (converted, EXIF orientation preserved)",
+    "width": 1200,
+    "height": 1600,
+    "changes": "Resize only; no crop, retouching or generated imagery."
+  },
+  {
+    "slug": "textile-ribbons",
+    "source": "Изумрудные вязаные ленты.png",
+    "width": 1097,
+    "height": 1434,
+    "role": "Decorative illustration only; original transparency preserved."
+  }
+]

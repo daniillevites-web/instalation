@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f1e9" />
+    <meta name="description" content="Сквозь травы — редакционный проект о Наталье Семёновой, памяти, текстиле и пейзаже. Интервью с художницей и документальные фотографии её работ, экспонировавшихся в РГБМ." />
+    <title>Сквозь травы — Наталья Семёнова</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23f4f1e9'/%3E%3Ctext x='12' y='47' font-size='46' fill='%23234437' font-family='serif'%3EТ%3C/text%3E%3C/svg%3E" />
+    <link rel="preload" href="/fonts/Prata-Regular.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="stylesheet" href="/src/style.css" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#story">Перейти к рассказу</a>
+    <header class="header wrap">
+      <a class="wordmark" href="#top" aria-label="Сквозь травы — в начало">Сквозь травы<span class="wordmark-dot" aria-hidden="true"></span></a>
+      <a class="header-link" href="#about">О проекте <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="top">
+      <section class="hero wrap" aria-labelledby="title">
+        <div class="hero-title">
+          <h1 id="title">Сквозь<br /><span>травы</span></h1>
+          <div class="hero-description"><p class="artist">Наталья Семёнова</p><p>Разговор с Натальей Семёновой о памяти, текстиле и пейзаже</p></div>
+        </div>
+        <div class="hero-art" data-media="hero"></div>
+        <div class="hero-bottom"><p>Цифровое продолжение встречи<br />с произведением в РГБМ</p><a class="walk-link" href="#story">Начать прогулку <svg viewBox="0 0 20 32" fill="none" aria-hidden="true"><path d="M10 1v28M2 21l8 8 8-8"/></svg></a><p class="hero-note">Текстиль. Память.<br />Пространство.</p></div>
+        <div id="thread-layers" aria-hidden="true"></div>
+      </section>
+      <nav class="chapter-nav wrap" aria-label="Главы рассказа"><a href="#origins">Истоки</a><a href="#material">Материал</a><a href="#scale">Масштаб</a><a href="#library">В библиотеке</a><a href="#continuation">Продолжение</a></nav>
+      <div id="story">
+        <section class="chapter origins wrap" id="origins" aria-labelledby="origins-title">
+          <div class="chapter-heading"><h2 id="origins-title">Откуда возникает<br /><em>пейзаж</em></h2><p class="editorial">В основе этой прогулки — разговор с художницей. От воспоминания к материалу, от отдельной нити — к пространству, в котором можно оказаться рядом с работой.</p></div>
+          <div class="reading-offset" data-interview="origins"></div>
+          
+        </section>
+        <section class="chapter material wrap" id="material" aria-labelledby="material-title">
+          <h2 id="material-title">Как впечатление<br />становится <em>материалом</em></h2>
+          <div class="material-layout"><div class="sticky-media" data-media="weaving"></div><div class="material-text"><p class="editorial">Приблизиться. Увидеть, как нити соединяются в ткань. Перевести взгляд с целого на то, из чего оно состоит.</p><div data-interview="material"></div></div></div>
+          <div class="weaving-panorama" data-media="weavingWide"></div>
+          <div class="textile-margin" aria-hidden="true"><img src="/materials/textile-ribbons.webp" alt="" /></div>
+        </section>
+        <section class="scale chapter" id="scale" aria-labelledby="scale-title">
+          <div class="wrap scale-heading"><h2 id="scale-title">Рядом<br /><em>с большим</em></h2><div><p class="scale-dimension">400 × 120 <span>см</span></p><p>«Травы», 2022<br />Шерстяная и акриловая пряжа</p></div></div>
+          <div class="scale-track"><div class="scale-stage wrap"><div class="scale-view scale-wide" data-media="grasses"></div><div class="scale-view scale-detail" data-media="grassesDetail"></div><div class="scale-caption"><span>Общий вид → деталь · место съёмки — уточнить</span><span>Фото: автор — уточнить</span></div></div></div>
+          <div class="wrap scale-reading"><p class="editorial">Увидеть целиком.<br />Остаться, чтобы рассмотреть.</p><div data-interview="scale"></div></div>
+        </section>
+        <section class="chapter library wrap" id="library" aria-labelledby="library-title">
+          <div class="library-heading"><h2 id="library-title">Пейзаж<br /><em>среди книг</em></h2><p class="editorial">Работы Натальи Семёновой экспонировались в Российской государственной библиотеке для молодёжи. Здесь рассказ возвращается к встрече произведения и пространства библиотеки.</p></div>
+          <div class="library-media" data-media="library"></div>
+          <div class="library-bottom"><div class="orange-work" data-media="orange"></div><div data-interview="library"></div></div><div class="installation-photo" data-media="installation"></div>
+        </section>
+        <section class="chapter continuation wrap" id="continuation" aria-labelledby="continuation-title"><h2 id="continuation-title">Продолжение</h2><div class="reading-offset" data-interview="continuation"></div><p class="closing">От нити —<br /><em>к новой истории.</em></p><a class="back-top" href="#top">Вернуться к началу <span aria-hidden="true">↑</span></a></section>
+      </div>
+      <section class="about wrap" id="about" aria-labelledby="about-title"><h2 id="about-title">О работах и проекте</h2><div class="works"><article><h3>Травы</h3><p>2022</p><p>Ткачество на станке,<br />шерстяная и акриловая пряжа.<br />400 × 120 см</p></article><article><h3>Воспоминание<br />в оранжевом цвете</h3><p>2025</p><p>Ткачество, хлопковые нити,<br />подрамник. 20 × 20 см</p><p class="credit-note">В материалах также встречается название «Воспоминание в оранжевом цвете / Солнце». Требуется уточнение.</p></article><article><h3>Наталья Семёнова</h3><p>Художница</p><p>Место экспонирования:<br />Российская государственная<br />библиотека для молодёжи (РГБМ).</p><p class="credit-note">Даты экспонирования — уточнить.</p></article></div><div class="credits"><p>«Сквозь травы» — рабочее название редакционного сайта, а не подтверждённое название выставки.</p><dl><div><dt>Интервью</dt><dd>Автор — уточнить</dd></div><div><dt>Фотографии</dt><dd>Авторы и права — уточнить</dd></div><div><dt>Графика (ленты)</dt><dd>Автор — уточнить</dd></div><div><dt>Редакция материалов</dt><dd>Уточнить</dd></div></dl></div></section>
+      <section class="materials-status wrap" id="materials-status" aria-labelledby="status-title"><details><summary id="status-title">Источники и редакционные примечания <span class="details-mark" aria-hidden="true"></span></summary><p>Интервью опубликовано по предоставленному документу «Интервью.docx»: сохранены все семь вопросов и полные ответы, исправлены отдельные опечатки и пунктуация. Длинные ответы разделены на абзацы. Заголовки глав и вступления — редакционные.</p><p>Сведения о произведениях сверены с «Инсталяция в художке.pdf». Снимки экспозиции и монтажа в РГБМ подписаны отдельно от фотографий в другом пространстве. Точная локация отдельной съёмки требует уточнения.</p><p>По краям первого экрана использован рисунок из файла «Изумрудные вязаные ленты.png». Это декоративный элемент; фактуру произведения показывают документальные фотографии.</p><p>Перед публикацией необходимо подтвердить вариант названия оранжевой работы, даты экспонирования, авторов интервью и фотографий и разрешения на использование материалов.</p><a class="source-link" href="https://drive.google.com/drive/folders/1Ld7F8xfRUv6aY-JxS84DtqmBvubN6jyF" target="_blank" rel="noopener noreferrer">Папка исходных материалов <span aria-hidden="true">↗</span></a></details></section>
+    </main>
+    <footer class="footer wrap"><p>Сквозь травы</p><p>Наталья Семёнова · РГБМ</p><a href="#top">Наверх ↑</a></footer>
+    <dialog id="image-dialog" aria-label="Просмотр фотографии"><button class="dialog-close" type="button" autofocus>Закрыть <span aria-hidden="true">×</span></button><figure><img alt="" /><figcaption></figcaption></figure></dialog>
+  </body>
+</html>

@@ -1,0 +1,471 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T14:26:24.065525+00:00",
+  "title": "Design System: Сквозь травы",
+  "extensions": {
+    "status": {
+      "stage": "first-version-with-authentic-materials",
+      "publicationReady": false,
+      "finishVerdict": "ship — локальная версия с настоящими материалами; публикация требует редакционных уточнений.",
+      "missingMedia": 0,
+      "interviewQuestions": 7,
+      "photographs": 8,
+      "paletteProvenance": "Изумрудный #006054 из фотодетали «Трав», коралловый #e46054 из фото оранжевой работы; текстовый акцент #b14336 затемнён для читаемости.",
+      "publicationQuestions": [
+        "Даты экспонирования",
+        "Авторы интервью, фотографий и рисунка; права на использование",
+        "Окончательный вариант названия оранжевой работы",
+        "Точная локация отдельной съёмки"
+      ],
+      "sources": [
+        "PRODUCT.md",
+        ".impeccable/surface.md",
+        "src/style.css",
+        "src/main.js",
+        "src/content.js",
+        "index.html",
+        "public/materials/provenance.json"
+      ]
+    },
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Тёплая бумага",
+        "tonalRamp": [
+          "oklch(15% 0.0039 89.72)",
+          "oklch(26% 0.0067 89.72)",
+          "oklch(38% 0.0094 89.72)",
+          "oklch(49% 0.0111 89.72)",
+          "oklch(61% 0.0111 89.72)",
+          "oklch(72% 0.0094 89.72)",
+          "oklch(84% 0.0061 89.72)",
+          "oklch(95% 0.0020 89.72)"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Глубокие зелёные чернила",
+        "tonalRamp": [
+          "oklch(15% 0.0160 177.54)",
+          "oklch(26% 0.0275 177.54)",
+          "oklch(38% 0.0389 177.54)",
+          "oklch(49% 0.0458 177.54)",
+          "oklch(61% 0.0458 177.54)",
+          "oklch(72% 0.0389 177.54)",
+          "oklch(84% 0.0252 177.54)",
+          "oklch(95% 0.0082 177.54)"
+        ]
+      },
+      "green": {
+        "role": "primary",
+        "displayName": "Изумрудный из плетения",
+        "tonalRamp": [
+          "oklch(15% 0.0278 180.42)",
+          "oklch(26% 0.0476 180.42)",
+          "oklch(38% 0.0674 180.42)",
+          "oklch(49% 0.0793 180.42)",
+          "oklch(61% 0.0793 180.42)",
+          "oklch(72% 0.0674 180.42)",
+          "oklch(84% 0.0436 180.42)",
+          "oklch(95% 0.0143 180.42)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Зелёно-серый текст",
+        "tonalRamp": [
+          "oklch(15% 0.0083 149.72)",
+          "oklch(26% 0.0142 149.72)",
+          "oklch(38% 0.0201 149.72)",
+          "oklch(49% 0.0236 149.72)",
+          "oklch(61% 0.0236 149.72)",
+          "oklch(72% 0.0201 149.72)",
+          "oklch(84% 0.0130 149.72)",
+          "oklch(95% 0.0042 149.72)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Тонкий разделитель",
+        "tonalRamp": [
+          "oklch(15% 0.0067 127.20)",
+          "oklch(26% 0.0115 127.20)",
+          "oklch(38% 0.0163 127.20)",
+          "oklch(49% 0.0192 127.20)",
+          "oklch(61% 0.0192 127.20)",
+          "oklch(72% 0.0163 127.20)",
+          "oklch(84% 0.0105 127.20)",
+          "oklch(95% 0.0034 127.20)"
+        ]
+      },
+      "wash": {
+        "role": "neutral",
+        "displayName": "Светлая зелёная подложка",
+        "tonalRamp": [
+          "oklch(15% 0.0049 124.56)",
+          "oklch(26% 0.0084 124.56)",
+          "oklch(38% 0.0119 124.56)",
+          "oklch(49% 0.0140 124.56)",
+          "oklch(61% 0.0140 124.56)",
+          "oklch(72% 0.0119 124.56)",
+          "oklch(84% 0.0077 124.56)",
+          "oklch(95% 0.0025 124.56)"
+        ]
+      },
+      "orange": {
+        "role": "secondary",
+        "displayName": "Тёмная глина",
+        "tonalRamp": [
+          "oklch(15% 0.0512 29.51)",
+          "oklch(26% 0.0877 29.51)",
+          "oklch(38% 0.1243 29.51)",
+          "oklch(49% 0.1462 29.51)",
+          "oklch(61% 0.1462 29.51)",
+          "oklch(72% 0.1243 29.51)",
+          "oklch(84% 0.0804 29.51)",
+          "oklch(95% 0.0263 29.51)"
+        ]
+      },
+      "coral": {
+        "role": "secondary",
+        "displayName": "Коралл оранжевой работы",
+        "tonalRamp": [
+          "oklch(15% 0.0560 27.77)",
+          "oklch(26% 0.0960 27.77)",
+          "oklch(38% 0.1360 27.77)",
+          "oklch(49% 0.1600 27.77)",
+          "oklch(61% 0.1600 27.77)",
+          "oklch(72% 0.1360 27.77)",
+          "oklch(84% 0.0880 27.77)",
+          "oklch(95% 0.0288 27.77)"
+        ]
+      },
+      "orange-wash": {
+        "role": "secondary",
+        "displayName": "Тёплая подложка",
+        "tonalRamp": [
+          "oklch(15% 0.0081 52.67)",
+          "oklch(26% 0.0139 52.67)",
+          "oklch(38% 0.0197 52.67)",
+          "oklch(49% 0.0231 52.67)",
+          "oklch(61% 0.0231 52.67)",
+          "oklch(72% 0.0197 52.67)",
+          "oklch(84% 0.0127 52.67)",
+          "oklch(95% 0.0042 52.67)"
+        ]
+      },
+      "scale": {
+        "role": "primary",
+        "displayName": "Тёмная зелёная плоскость",
+        "tonalRamp": [
+          "oklch(15% 0.0166 180.14)",
+          "oklch(26% 0.0284 180.14)",
+          "oklch(38% 0.0402 180.14)",
+          "oklch(49% 0.0473 180.14)",
+          "oklch(61% 0.0473 180.14)",
+          "oklch(72% 0.0402 180.14)",
+          "oklch(84% 0.0260 180.14)",
+          "oklch(95% 0.0085 180.14)"
+        ]
+      },
+      "hero-media": {
+        "role": "neutral",
+        "displayName": "Светлая фотоплоскость",
+        "tonalRamp": [
+          "oklch(15% 0.0028 106.55)",
+          "oklch(26% 0.0048 106.55)",
+          "oklch(38% 0.0068 106.55)",
+          "oklch(49% 0.0080 106.55)",
+          "oklch(61% 0.0080 106.55)",
+          "oklch(72% 0.0068 106.55)",
+          "oklch(84% 0.0044 106.55)",
+          "oklch(95% 0.0014 106.55)"
+        ]
+      },
+      "scale-media": {
+        "role": "neutral",
+        "displayName": "Тёмная фотоплоскость",
+        "tonalRamp": [
+          "oklch(15% 0.0177 177.84)",
+          "oklch(26% 0.0303 177.84)",
+          "oklch(38% 0.0430 177.84)",
+          "oklch(49% 0.0506 177.84)",
+          "oklch(61% 0.0506 177.84)",
+          "oklch(72% 0.0430 177.84)",
+          "oklch(84% 0.0278 177.84)",
+          "oklch(95% 0.0091 177.84)"
+        ]
+      },
+      "inverse-heading": {
+        "role": "neutral",
+        "displayName": "Светлое выделение",
+        "tonalRamp": [
+          "oklch(15% 0.0134 134.13)",
+          "oklch(26% 0.0229 134.13)",
+          "oklch(38% 0.0325 134.13)",
+          "oklch(49% 0.0382 134.13)",
+          "oklch(61% 0.0382 134.13)",
+          "oklch(72% 0.0325 134.13)",
+          "oklch(84% 0.0210 134.13)",
+          "oklch(95% 0.0069 134.13)"
+        ]
+      },
+      "inverse-copy": {
+        "role": "neutral",
+        "displayName": "Светлый вспомогательный текст",
+        "tonalRamp": [
+          "oklch(15% 0.0096 133.01)",
+          "oklch(26% 0.0164 133.01)",
+          "oklch(38% 0.0233 133.01)",
+          "oklch(49% 0.0274 133.01)",
+          "oklch(61% 0.0274 133.01)",
+          "oklch(72% 0.0233 133.01)",
+          "oklch(84% 0.0151 133.01)",
+          "oklch(95% 0.0049 133.01)"
+        ]
+      },
+      "inverse-caption": {
+        "role": "neutral",
+        "displayName": "Светлая фотоподпись",
+        "tonalRamp": [
+          "oklch(15% 0.0059 151.08)",
+          "oklch(26% 0.0101 151.08)",
+          "oklch(38% 0.0144 151.08)",
+          "oklch(49% 0.0169 151.08)",
+          "oklch(61% 0.0169 151.08)",
+          "oklch(72% 0.0144 151.08)",
+          "oklch(84% 0.0093 151.08)",
+          "oklch(95% 0.0030 151.08)"
+        ]
+      },
+      "dialog-backdrop": {
+        "role": "neutral",
+        "displayName": "Затемнение просмотра",
+        "tonalRamp": [
+          "oklch(15% 0.0110 167.33)",
+          "oklch(26% 0.0188 167.33)",
+          "oklch(38% 0.0267 167.33)",
+          "oklch(49% 0.0314 167.33)",
+          "oklch(61% 0.0314 167.33)",
+          "oklch(72% 0.0267 167.33)",
+          "oklch(84% 0.0173 167.33)",
+          "oklch(95% 0.0056 167.33)"
+        ]
+      },
+      "skip-text": {
+        "role": "neutral",
+        "displayName": "Текст пропуска навигации",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(26% 0.0000 0.00)",
+          "oklch(38% 0.0000 0.00)",
+          "oklch(49% 0.0000 0.00)",
+          "oklch(61% 0.0000 0.00)",
+          "oklch(72% 0.0000 0.00)",
+          "oklch(84% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Название",
+        "purpose": "Крупная кириллическая Prata в двухколоночном hero."
+      },
+      "headline": {
+        "displayName": "Заголовок главы",
+        "purpose": "Prata, цветовые выделения без курсива."
+      },
+      "body": {
+        "displayName": "Основной текст",
+        "purpose": "Golos для чтения и интерфейса."
+      },
+      "interview-question": {
+        "displayName": "Подлинный вопрос",
+        "purpose": "Семь полных вопросов из предоставленного интервью."
+      },
+      "interview-answer": {
+        "displayName": "Подлинный ответ",
+        "purpose": "Полные ответы художницы с интерлиньяжем 1.9."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Общая кривая переходов."
+      },
+      {
+        "name": "navigation-and-walk",
+        "value": "transform .4s var(--ease)",
+        "purpose": "Индикатор главы и стрелка; стрелка смещается на 6px вниз."
+      },
+      {
+        "name": "details-toggle",
+        "value": "transform .3s var(--ease)",
+        "purpose": "Знак плюс превращается в горизонтальную линию."
+      },
+      {
+        "name": "detail-reveal",
+        "value": "clip-path: inset(0 calc((1 - var(--detail-progress)) * 100%) 0 0); opacity:1",
+        "purpose": "Прогресс clamp((-track.top + innerHeight * .06)/max(1,track.height - stage.height)); один rAF на кадр. Это проявление границы, не crossfade. Клавиатуре доступен один перекрывающийся вид через inert."
+      },
+      {
+        "name": "hero-textile-parallax",
+        "value": "translate3d(var(--thread-x,0),var(--thread-y,0),0)",
+        "purpose": "Декоративный рисунок в полях. p=clamp(-hero.top/(hero.height*.8)); desktop X=±90p,Y=28p; mobile X=±24p,Y=8p."
+      },
+      {
+        "name": "material-textile-parallax",
+        "value": "translate3d(0,clamp(-18px,offset,18px),0)",
+        "purpose": "Ограниченный сдвиг рисунка по Y: (viewport.height/2 - margin.top)*.035, на телефоне *.012. При reduced-motion сдвиг 0."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media (prefers-reduced-motion: reduce)",
+        "purpose": "scroll-behavior:auto; animation:none!important; transition:none!important; рисунок без transform; sticky сцены и изображений снят; оба вида последовательно, clip-path:none."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1500px",
+        "query": "(min-width:1500px)",
+        "purpose": "Название 96px, без дополнительного правого отступа hero-title."
+      },
+      {
+        "name": "tablet",
+        "value": "900px",
+        "query": "(max-width:900px)",
+        "purpose": "Название 76px; уменьшение промежутков; колонка интервью 62%; глава 85px/70px."
+      },
+      {
+        "name": "mobile",
+        "value": "600px",
+        "query": "(max-width:600px)",
+        "purpose": "Последовательные блоки, навигация с переносом, без sticky и перекрытия изображений."
+      }
+    ],
+    "focus": {
+      "value": "2px solid var(--orange); outline-offset:7px",
+      "selectors": [
+        "a:focus-visible",
+        "button:focus-visible",
+        "summary:focus-visible"
+      ]
+    },
+    "responsiveTypography": {
+      "mobile-display": "clamp(64px,15.4vw,90px)",
+      "mobile-headline": "39px / 1.23",
+      "mobile-material-headline": "34px",
+      "mobile-editorial": "16px / 1.8",
+      "mobile-question": "17px / 1.7",
+      "mobile-answer": "16px / 1.9",
+      "mobile-closing": "40px / 1.28",
+      "mobile-media-caption": "11px / 1.65"
+    },
+    "textileGeometry": {
+      "sourceKind": "transparent decorative drawing, 1097×1434 RGBA PNG; rendered as WebP",
+      "width": "var(--gutter)",
+      "purpose": "Рисунок ограничен боковыми полями; документальную фактуру показывают фотографии.",
+      "heroHeight": "calc(100% - 80px); max-height:740px; mobile:65%",
+      "rightLayer": "scale:none; object-position:97% top",
+      "leftLayer": "object-position:5% top",
+      "material": "width:var(--gutter); height:380px; bottom:140px; mobile height:220px,bottom:40px"
+    },
+    "scaleGeometry": {
+      "track": "height:170vh;min-height:1100px;margin-top:55px",
+      "stage": "position:sticky;top:5vh;height:86vh;min-height:580px;max-height:800px",
+      "image": "height:min(73vh,680px);object-fit:contain",
+      "caption": "Одна общая подпись на широком экране; подписи каждого фото на телефоне и при reduced-motion."
+    }
+  },
+  "components": [
+    {
+      "name": "Навигация глав",
+      "kind": "nav",
+      "refersTo": "chapter-navigation",
+      "description": "Текстовые ссылки между тонкими линиями, текущая глава отмечена снизу.",
+      "html": "<nav class=\"ds-chapters\" aria-label=\"Главы\"><a href=\"#origins\" aria-current=\"location\">Истоки</a><a href=\"#material\">Материал</a><a href=\"#scale\">Масштаб</a></nav>",
+      "css": ".ds-chapters{display:flex;flex-wrap:wrap;gap:clamp(20px,4vw,60px);border-block:1px solid var(--line,#bac0b3);padding:21px 0;font:12px Golos,Arial,sans-serif;color:var(--ink,#183e36)}.ds-chapters a{position:relative;color:inherit;text-decoration:none}.ds-chapters a::after{content:\"\";position:absolute;left:0;right:0;bottom:-22px;height:2px;background:var(--green,#006054);transform:scaleX(0);transform-origin:left;transition:transform .4s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-chapters a:hover::after,.ds-chapters a[aria-current]::after{transform:scaleX(1)}.ds-chapters a:focus-visible{outline:2px solid var(--orange,#b14336);outline-offset:7px}@media(max-width:600px){.ds-chapters{gap:13px 23px;padding-block:18px;font-size:11px}.ds-chapters a::after{bottom:-7px}}@media(prefers-reduced-motion:reduce){.ds-chapters a::after{transition:none}}"
+    },
+    {
+      "name": "Начать прогулку",
+      "kind": "custom",
+      "refersTo": "walk-link",
+      "description": "Текстовое действие со стрелкой, движущейся вниз при наведении.",
+      "html": "<a class=\"ds-walk\" href=\"#story\">Начать прогулку<svg viewBox=\"0 0 20 32\" fill=\"none\" aria-hidden=\"true\"><path d=\"M10 1v28M2 21l8 8 8-8\"/></svg></a>",
+      "css": ".ds-walk{display:inline-flex;gap:24px;align-items:center;text-decoration:none;font:14px Golos,Arial,sans-serif;color:var(--ink,#183e36)}.ds-walk svg{width:14px;height:30px;stroke:currentColor;stroke-width:1.2;transition:transform .4s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-walk:hover svg{transform:translateY(6px)}.ds-walk:focus-visible{outline:2px solid var(--orange,#b14336);outline-offset:7px}@media(prefers-reduced-motion:reduce){.ds-walk svg{transition:none}.ds-walk:hover svg{transform:none}}"
+    },
+    {
+      "name": "Подлинное интервью",
+      "kind": "custom",
+      "description": "Вопрос, имя художницы и полный ответ в ясной колонке чтения.",
+      "html": "<article class=\"ds-qa\"><h3>С чего обычно начинается ваша работа — с образа, ощущения или самого материала? Как этот первый импульс постепенно обретает форму?</h3><div class=\"ds-answer\"><span class=\"ds-speaker\">Наталья Семёнова</span><p>Скорее с впечатления, которое я пытаюсь переработать в более конкретный образ. Я ищу форму, способную это впечатление передать. Так случилось, что чаще всего для этого подходит текстиль благодаря своей мягкости, деликатности и детальности. Мне нравится, как в случае с инсталляцией текстиль может очень аккуратно вторгаться в пространство, взаимодействовать с ним и постепенно его менять.</p></div></article>",
+      "css": ".ds-qa{font-family:Golos,Arial,sans-serif;color:var(--ink,#183e36)}.ds-qa h3{font-size:20px;line-height:1.6;font-weight:500;margin:0 0 25px}.ds-answer{font-size:17px;line-height:1.9;max-width:68ch}.ds-speaker{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--green,#006054);margin-bottom:16px}.ds-answer p{margin:0 0 1.3em}@media(max-width:600px){.ds-qa h3{font-size:17px;line-height:1.7;margin-bottom:22px}.ds-answer{font-size:16px}}"
+    },
+    {
+      "name": "Документальная фотография",
+      "kind": "button",
+      "refersTo": "photo-button",
+      "description": "Полный кадр без обрезки, кнопка открывает нативный просмотр на странице.",
+      "html": "<figure class=\"ds-figure\"><button class=\"ds-photo\" type=\"button\" aria-label=\"Увеличить: Травы, общий вид\"><img src=\"/materials/grasses-overview-640.webp\" alt=\"Изумрудные текстильные ленты спускаются с потолка и ложатся на пол.\" width=\"3456\" height=\"5184\" /></button><figcaption>Общий вид в выставочном пространстве. Место съёмки — уточнить.<br />Фото: автор — уточнить</figcaption></figure>",
+      "css": ".ds-figure{margin:0;font-family:Golos,Arial,sans-serif;color:var(--ink,#183e36)}.ds-photo{display:block;border:0;padding:0;background:transparent;width:100%;cursor:zoom-in;overflow:hidden}.ds-photo img{display:block;width:100%;height:auto;max-height:620px;object-fit:contain}.ds-photo:hover img{filter:brightness(.97)}.ds-photo:focus-visible{outline:2px solid var(--orange,#b14336);outline-offset:7px}.ds-figure figcaption{font-size:11px;line-height:1.6;color:var(--muted,#566358);padding-top:12px}@media(max-width:600px){.ds-figure figcaption{font-size:11px;line-height:1.65}}"
+    },
+    {
+      "name": "Источники и редакционные примечания",
+      "kind": "custom",
+      "refersTo": "materials-summary",
+      "description": "Нативное раскрытие с происхождением материалов и вопросами перед публикацией.",
+      "html": "<details class=\"ds-status\"><summary>Источники и редакционные примечания<span class=\"ds-mark\" aria-hidden=\"true\"></span></summary><p>Перед публикацией необходимо подтвердить вариант названия оранжевой работы, даты экспонирования, авторов интервью и фотографий и разрешения на использование материалов.</p></details>",
+      "css": ".ds-status{border-block:1px solid var(--line,#bac0b3);font:13px Golos,Arial,sans-serif;color:var(--ink,#183e36)}.ds-status summary{padding-block:22px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}.ds-status summary::-webkit-details-marker{display:none}.ds-status summary:focus-visible{outline:2px solid var(--orange,#b14336);outline-offset:7px}.ds-mark{width:14px;height:14px;position:relative;flex-shrink:0;margin-left:20px}.ds-mark::before,.ds-mark::after{content:\"\";background:currentColor;position:absolute;left:0;top:6px;width:14px;height:1px}.ds-mark::after{transform:rotate(90deg);transition:transform .3s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-status[open] .ds-mark::after{transform:rotate(0)}.ds-status p{max-width:85ch;line-height:1.8}@media(prefers-reduced-motion:reduce){.ds-mark::after{transition:none}}"
+    },
+    {
+      "name": "Закрытие фотографии",
+      "kind": "button",
+      "refersTo": "dialog-close",
+      "description": "Текстовая кнопка нативного модального просмотра.",
+      "html": "<button class=\"ds-close\" type=\"button\">Закрыть <span aria-hidden=\"true\">×</span></button>",
+      "css": ".ds-close{background:none;border:0;padding:5px;font:16px Golos,Arial,sans-serif;color:var(--ink,#183e36);cursor:pointer}.ds-close span{margin-left:15px;font-size:23px}.ds-close:focus-visible{outline:2px solid var(--orange,#b14336);outline-offset:7px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "От нити к пейзажу",
+    "overview": "Тёплая светлая плоскость, крупная кириллическая антиква и тёмно-зелёный текст создают спокойный ритм редакционного чтения. Воздух и переход от общего вида к переплетению нитей связывают документальные изображения с голосом художницы. Изумрудный и коралловый акценты опираются на изученные фотографии; рисунок лент работает только как декор в полях.\n\nПервая версия с настоящими материалами включает полное интервью из семи вопросов и ответов, восемь документальных фотографий и декоративную графику из прозрачного PNG. Материалы скачаны и просмотрены; происхождение опубликованных WebP записано в public/materials/provenance.json. Перед публикацией остаются редакционные вопросы: даты экспонирования, авторы и права на материалы, окончательный вариант названия оранжевой работы и точная локация отдельной съёмки. Независимый finish review разрешил передать локальную версию (ship); готовность к публикации не подтверждена.",
+    "keyCharacteristics": [
+      "Крупная Prata и спокойная Golos с поддержкой кириллицы.",
+      "Плоские поверхности, тонкие разделители и прямые углы.",
+      "Документальные фотографии сохраняют полный кадр; декоративный рисунок ограничен полями.",
+      "Асимметричные колонки на широком экране, последовательное чтение на телефоне.",
+      "Проявление детали при обычной прокрутке; полноценное чтение без движения."
+    ],
+    "rules": [
+      {
+        "name": "The Provenance Rule",
+        "body": "Изумрудный взят из фотографии плетения, коралловый — из фотографии оранжевой работы. Тёмный текстовый акцент orange обеспечивает читаемость; декоративный PNG не служит образцом фактуры произведения.",
+        "section": "colors"
+      },
+      {
+        "name": "The Accessible Reading Rule",
+        "body": "Текст доступен сразу. На телефоне и при prefers-reduced-motion общий вид и деталь показаны последовательно; раскрытие изображения не должно быть условием чтения.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do сохранять крупную Prata, читаемую Golos и ритм свободного пространства.",
+      "Do брать значения из frontmatter и учитывать responsive и reduced-motion из sidecar.",
+      "Do сохранять полный кадр документальных фотографий, осмысленные alt и явные авторские подписи.",
+      "Do отделять декоративный рисунок лент от документальных изображений произведения.",
+      "Do сохранять клавиатурный фокус, нативное чтение и последовательные изображения без движения.",
+      "Do оставлять редакционные вопросы видимыми до подтверждения дат, названия, локаций, авторов и прав."
+    ],
+    "donts": [
+      "Don't называть текущую версию безусловно готовой к публикации.",
+      "Don't подменять подлинное интервью вымышленными репликами или документальные фотографии рисунком.",
+      "Don't обрезать произведение ради карточной композиции или скрывать текст до анимации.",
+      "Don't добавлять округлые карточки и тени к существующим плоским компонентам без изменения направления.",
+      "Don't называть рабочее название сайта подтверждённым названием выставки."
+    ]
+  }
+}
